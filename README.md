@@ -73,10 +73,5 @@ B -> aB e
 1. Abrir PowerShell (en Windows) y ejecutar ejemplos como los mostrados en las secciones anteriores.
 2. Para pruebas automatizadas rápidas puedes redirigir cadenas con `io.StringIO` desde Python (los scripts ya incluyen helpers de prueba en su código).
 
-## Siguientes mejoras sugeridas
-- Añadir un conjunto de tests con `pytest` que cubran varios DFAs y gramáticas con y sin recursión izquierda, comprobando la salida esperada.
-- Reemplazar la representación del épsilon `e` por `ε` si se desea mayor claridad (solo visual).
-- Añadir validación de entrada más robusta (mensajes de error claros cuando la entrada no tenga el formato esperado).
 
----
 
